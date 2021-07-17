@@ -1,5 +1,5 @@
 # Airline-and-Airport-Analysis
-![alt text](bg1.JPG)
+![alt text](/sample_images/bg1.JPG)
 
 # Problem Statement
 To identify Northwoods Airline biggest competitors using the dataset provided. The dataset contains information about the Airline, Airport and Flight information which must be loaded into the cloud environment to further perform analysis.
@@ -11,7 +11,7 @@ To identify Northwoods Airline biggest competitors using the dataset provided. T
 
 # Workflow
 The workflow which I followed for building this project. 
-![](image%202.JPG)
+![](/sample_images/image%202.JPG)
 
 # Scala Code
 "Snowflake connector Scala notebook" is the databricks notebook where connectors are used to connect to snowflake from databricks notebook.
