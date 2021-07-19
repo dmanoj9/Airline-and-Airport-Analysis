@@ -26,3 +26,13 @@ Here SQL queries are written to execute the following views:
 * Cancellation reasons by airport
 * Delay reasons by airport
 * Airline with the most unique routes
+
+# Future Scope 
+
+* WN and DL airlines are our biggest competitors and since airports like ATL and ORD have the largest total number of flights by airport we should consider those locations to be our target origin airports.
+
+* It is not just important to have highest number of flights, but we must also   maintain the consistency in increasing the percentage of being on time and maintaining a smaller number of delays. This can be achieved by constantly analyzing these metrics and identifying where there is lag. 
+* Weather plays a major role in the cancellation of Flights; it is seen that highest number of flights have been cancelled due to reason Weather(B) To avoid the inconvenience passengers should be informed earlier about the flight cancellation by looking at the weather forecast. 
+* Delays caused by Airport was highest at ATL airport and 3rd highest at ORD airport. Majority of delays by airport were only caused by Air System of the Airports. We can overcome this by pushing the boarding time earlier so the flight can get ready for take off as per the estimated departure timing.
+* Flying flights in Unique routes can be tricky to gain profits, but we can over come this by choosing either the origin or the destination airports which are busiest among all to get more flyers.
+
