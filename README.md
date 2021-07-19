@@ -54,7 +54,19 @@ https://drive.google.com/file/d/1S-32SHBuw0Y_iVI20XaW88iYEd7EgEog/view?usp=shari
 |ELAPSED_TIME  | Number  | Total trip time |
 |AIR_TIME  | Number  |The time duration between wheels_off and wheels_on time |
 |DISTANCE  | Number  | The distance between two airports|
-
+|WHEELS_ON  | Number  | The time point that the aircraft's wheels touch on the ground |
+|TAXI_IN | Number  |The time duration elapsed between wheels on and gate arrival at the destination |
+|SCHEDULED_ARRIVAL  | Number  |Planned arrival time|
+|ARRIVAL_TIME | String  |Time of arrival |
+|ARRIVAL_DELAY | String  |Arrival time - Scheduled Arrival |
+|DIVERTED | Number  |Aircraft was diverted|
+|CANCELLED | Number  |Aircraft was canceled|
+|CANCELLATION_REASON | String  |Reason for Cancellation of flight: A -Airline/Carrier; B - Weather; C - National Air System; D - Security |
+|AIR_SYSTEM_DELAY | Number  |Delay caused by the air system |
+|SECURITY_DELAY | Number  |Delay caused by security|
+|AIRLINE_DELAY | Number  |Delay caused by the airline |
+|LATE_AIRCRAFT_DELAY | Number  |Delay caused by the aircraft|
+|WEATHER_DELAY | Number  |Delay caused by weather |
 
 
 
